@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* 100% of the viewport height */
+  margin: 0;
+}
+
+.buttonClick {
+  /* background-color: #3498db; */
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+  transition: background-color 0.3s ease;
+}
+
+.buttonClick:hover {
+  background-color: #2980b9;
+}
